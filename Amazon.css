@@ -1,0 +1,523 @@
+ body{
+            border: 5px solid black;
+            box-sizing: border-box;
+            height: fit-content;
+            width: fit-content;
+            background-color:lightgray;
+}
+.navbar{
+    height : 60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav_logo {    
+    height: 50px;
+    width: 100px; 
+}  
+.logo{
+     background-image : url("Amazon.png");
+     background-size: cover;
+     height : 50px;
+     width :  100%;
+}
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+/** box2 **/
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+}
+
+.add-second{ 
+    font-size: 1rem;
+    margin-left: 3px;
+}
+.add-icon{  
+    display:flex;
+    align-items: center;
+}
+/** box3 **/
+.nav-search{
+    display: flex;
+    background-color: pink;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    background-color:#f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border:none;
+}
+.search input{
+    width: 100%;
+    font-size: 1rem;
+    border : none;
+}
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+/** box4 **/
+  span {
+    font-size: 0.7rem;
+  }
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/** box6 **/
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/** panel **/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display:flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p {
+    display: inline;
+    margin-left:  15px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+/** hero-section **/
+.hero-section { 
+    background-image: url("Under_1499_Tallhero_3000x1200._CB581597259_.jpg Amazon") ;
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+} 
+.hero-msg {
+    color:black;
+    height: 40px;            
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:  0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+.hero-msg {
+    color:#007185;
+}
+.box1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.box2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cloth{
+    background-color: white; 
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+.watch{
+    background-color: white; 
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+.dryfruits{
+    background-color: white; 
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+.bags{
+    background-color: white; 
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+.makeup{
+    background-color: white; 
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+.mobils{
+    background-color: white; 
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+
+.shoes{
+    background-color: white; 
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+.laptop{
+    background-color: white; 
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+}
+h3{
+    font-size: 50px;
+}
+p{
+    font-size: 25px;
+}
+.footer{
+    margin-top:10px;
+
+}
+.foot-panel{
+    background-color: #37475a;
+    color:white;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem
+}
+.foot-panel2{
+    background:#222f3d;
+    color: aliceblue;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top{
+        margin-top:20px;
+    };
+}
+ul a{
+    display: block;
+    font-size :0.85em;
+    margin-top:15px;
+
+}
+.foot-panel3{
+    background-color: #222f3d;
+    color: aliceblue;
+    border-top:0.5 solid white;
+    height: 70px;
+    display:block;
+    margin: auto;
+     justify-content: center;
+    align-items: center;  
+
+}
+.logo-2{
+
+    background-image: url("amazonlogo1.png");
+    background-size: cover;
+    height: 50px;
+    width:120px;
+    display: flex;
+    margin-left: 570px;
+}
+.foot-panel4{
+    background-color: #222424;
+    color: aliceblue;
+    height:40px;
+    margin: auto;
+    
+}
+/** shop section **/
+/* .shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #e2e7e6;
+    height:400px;
+    width: 50px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    display: inline-block;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    z-index: -1;
+} 
+.box-image { 
+    height: auto;
+    background-size: cover;
+    margin-top: 1rem;
+   margin-bottom: 1rem;
+   display: inline box;
+   position : relative;
+   display: flex;  
+}
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+}
+  
+ .box-image { 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+      z-index: -1; 
+} 
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    z-index: 1; /* Ensure the content is above the background image */
+    
+
+.box1_box{
+    width: 280px;
+    height: 320px;
+   
+}
+.box2_box{
+    display: flex;
+    justify-content: center;
+}
+
+.box-content p {
+    color: #007185;
+} 
+ul a {
+   display: block;
+}
+
+.box {
+    position: relative; /* Ya aap ise absolute ya fixed position mein bhi set kar sakte hain */
+    z-index: 1; /* 1 se shuru karke aap apne requirements ke hisab se set kar sakte hain */
+}
+
+.image {
+position: absolute ;
+position: relative;
+margin-top: 34px;
+
+}
+.card-product h2{
+    margin: 0;
+    padding: 10px;
+    
+}
+
+.card-product-nested-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.card-nested {
+
+}
+
+.card-nested p {
+    margin: 5px;
+}
+.card-nested img {
+    width: 128px;
+    height: 102px;
+    object-fit: cover;
+
+}
+.card-product-btn {
+    font-size: 14px;
+    align-self: flex-start;
+    margin: 7px 10px; 
+    padding-left: 0;
+    background-color: transparent;
+    border:none;
+    color:rgb(25, 105, 105)
+}
+.card-product-btn:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+*/sidebar navigation*/
+#open-nav-sidebar {
+    cursor: pointer;
+}
+
+.sidebar-container-navigation {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;             
+    left: 0;
+    z-index: 10;                                                          
+    background-color: transparent;
+    transform: translateX(-100%);                              
+    display: flex;
+    transition: transform 0.3s;
+     
+}
+
+.slidebar-show {
+    transform: translateX(0%);
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sidebar-left-part {
+    background-color: white;
+    width: 365px;
+    height: 100%;
+    box-sizing: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+.sidebar-top {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    padding-left: 30px;
+    background-color: rgb(19, 25, 33);
+    color: white;
+}
+
+.sidebar-top h2 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.sidebar-top i {
+    padding-right: 10px;
+    font-size: 25px;
+}
+
+.sidebar-item {
+    padding-left: 30px;
+    border-top: 1.5px solid #ccc;
+}
+
+.sidebar-item h2 {
+    font-size: 20px;
+}
+
+.sidebar-item p {
+    color: rgb(65, 62, 62);
+}
+
+#sidebar-navigation-close {
+    background-color: transparent;
+    align-self: flex-start;
+    font-size: 30px;
+    border: none;
+    color: white;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.sidebar-wrap {
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 100px;
+    float:right-side;
+    display: flex;
+    display: wrap;
+}
+
+.card-product-container{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.card-product{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 310px;
+    box-shadow: -10px -0px 20px rgba(196, 240, 240,0.5),
+    50px 50px 20px rgba(196, 240, 240,0.5);
+    padding: 10px;
+
+}
+.card-product h2{
+    margin: 0;
+    padding: 10px;
+ 
+}
+
+.card-product-nested-card { 
+    display: flex;             
+    flex-wrap: wrap;                              
+    justify-content: space-evenly;               
+}
+.right-align {
+    float: right;
+
+}
+
+.icon-location{
+    margin-right: 3px;
+}
+.sf {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-nested {
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

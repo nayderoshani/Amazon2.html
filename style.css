@@ -1,0 +1,131 @@
+body {
+    background-color: antiquewhite;
+  }
+  .logo{
+    height: 2vh;
+    border: radius 10px;
+  }
+  .span{
+    margin-right: 1.5rem;
+    font-size: x-large;
+    color: rgb(13, 41, 13);
+  }
+  .about{
+    height: 2vh;
+  }
+  .button{
+    padding: 5px;
+    border-radius: 20px;
+    background-color:lightskyblue;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+  }
+  .Mrunali {
+    margin-top: 1.2rem;
+  }
+  
+  select {
+    background: transparent;
+    border: none;
+  }
+  .sign {
+    background-color: rgb(56, 104, 56);
+    font-size:small;
+    padding: 0.5rem 0.5rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    color:palegoldenrod;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image{
+    width:36vw;
+    height:88vh;
+  }
+  .inside {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: right;
+  }
+  .upper {
+    position: relative;
+    bottom: 30rem;
+    left: 14rem;
+    background-color: lightblue;
+    bottom: 550px;
+    width: 50vw;
+    height: 60vh;
+  }
+  .upper h1 {
+    padding: 4rem 4rem 0rem 7rem;
+    text-align: end;
+    font-size: xx-large;
+    color: rgb(37, 82, 37);
+  }
+  .upper p {
+    padding: 0rem 3rem 0rem 19rem;
+    text-align: start;
+    color: rgb(32, 87, 32);
+  }
+  .container {
+    margin-left: 14rem;
+    display: flex;
+    justify-content: space-around;
+  }
+  .start {
+    padding: 10px;
+    background: transparent;
+    background-color: rgb(48, 90, 48);
+    color: white;
+    border: none;
+  }
+  .learn {
+    padding: 10px;
+    background: transparent;
+    background-color:palegoldenrod;
+    color: rgb(50, 80, 36);
+    border: none;
+    font-size:small;
+  }
+  .button image
+  {
+    border-radius:2px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+    margin: 2rem;
+  }
+  .roshani{
+    margin-top: 1.2rem;
+  }
+  .button {
+     padding:5px;
+    border-radius:20px;
+    
+  }
+  select {
+    background: transparent;
+    border: none;
+  }
+  .sign {
+    background-color: rgb(56, 104, 56);
+    font-size:small;
+    padding: 0.5rem 0.5rem;
+    margin-right: 1rem;
+    border-radius: 10px;
+    color: white;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+  .image{
+    width:36vw;
+    height:88vh;
+  }
